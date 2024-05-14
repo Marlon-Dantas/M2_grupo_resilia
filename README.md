@@ -51,7 +51,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para r
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
-
----
-
-Certifique-se de ajustar o conteúdo conforme necessário e adicionar quaisquer outras informações relevantes sobre o seu projeto.

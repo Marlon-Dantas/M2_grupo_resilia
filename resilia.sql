@@ -6,6 +6,22 @@ CALL resilia.inserir_relacionamentos();
 --1. Selecionar a quantidade total de estudantes cadastrados no banco código: 
 	SELECT COUNT(alunos.nome) AS total_estudantes
 	FROM resilia.alunos
+	
+	
+--2.  Selecionar quais pessoas facilitadoras atuam em mais de uma turma: OK ✔
+
+	SELECT 
+		f.id_facilitador,
+		f.nome,
+		COUNT(ft.id_turma) AS numero_de_turmas
+	FROM 
+		resilia.Facilitadores f
+	JOIN 
+		resilia.Facilitadores_Turmas ft ON f.id_facilitador = ft.id_facilitador
+	GROUP BY 
+		f.id_facilitador, f.nome
+	HAVING 
+		COUNT(ft.id_turma) > 1;
 
 --3.CRIAR A VIEW PARA VER PORCENTAGEM DE EVASÃO POR TURMA
 CREATE VIEW resilia.Porcentagem_Evasao_Por_Turma AS

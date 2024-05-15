@@ -38,11 +38,11 @@ Para utilizar o sistema, basta executar os scripts SQL fornecidos neste reposit�
 - Cliente SQL (por exemplo, pgAdmin) para executar os scripts.
 
 ### Passos
-
-1. Execute o script `criar_tabelas_resilia.sql` para criar as tabelas e procedimentos armazenados.
-2. Execute o script `inserir_dados_resilia.sql` para inserir dados iniciais.
-3. Execute o script `inserir_relacionamentos_resilia.sql` para estabelecer os relacionamentos entre os dados.
-4. Explore as consultas fornecidas para obter insights sobre os dados do sistema.
+1. Execute o arquivo `procedures.sql` completo.
+2. Execute o script `criar_tabelas_resilia.sql` para criar as tabelas e procedimentos armazenados.
+3. Execute o script `inserir_dados_resilia.sql` para inserir dados iniciais.
+4. Execute o script `inserir_relacionamentos_resilia.sql` para estabelecer os relacionamentos entre os dados.
+5. Explore as consultas fornecidas para obter insights sobre os dados do sistema.
 
 ## Contribuições
 
